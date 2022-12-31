@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-color: #222;
+
+}
+header{
+    position: fixed;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+header .logo{
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    /* left: 0; */
+
+     
+}
+header ul{
+    display: flex;
+    gap: 40px;
+    /* right: 300px; */
+    /* align-items: right; */
+}
+
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    color: #999;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 0.2s;
+}
+
+header ul li a:hover,
+header ul li a.active{
+    color: #fff;
+}
+
+section{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   padding: 100px;
+   gap:  100px;
+
+}
+section .content{
+    max-width: 700px;
+}
+section .content h2{
+   color: #fff;
+   font-size: 3.5em;
+   font-weight: 500;
+}
+section .content h2 b{
+ color: #0f0;
+}
+section .content p{
+    color: #999;
+    font-size: 1.1em;
+}
+section .content .btn{
+    padding: 10px 15px;
+    background:#fff ;
+    color: #222;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 25px ;
+    letter-spacing: 0.2em;
+    transition: 1s linear ease-in-out;
+
+}
+section .content .btn:hover{
+    letter-spacing: 0.4em;
+    transition: 0.5 linear ease-in-out;
+}
+section .container{
+    position: relative;
+    min-width: 400px;
+    /* height: 400px; */
+    right: 100px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+section .container .element{
+    position: relative;
+    width: 40px;
+    height:40px;
+    background-color: #fff;
+    scale: 0.75;
+}
